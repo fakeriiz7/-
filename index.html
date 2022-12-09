@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <title>fakeriiz7</title>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta property="og:description" content="idk my website" />
+   <meta property="og:image" content="https://cdn.discordapp.com/emojis/1050531330066231386.gif?size=96&quality=lossless" />
+   <meta property="og:title" content="fakeriiz7 <3" />
+   <meta property="og:url" content="https://fakeriiz7.cc/" />
+
+   <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/emojis/1050531330066231386.gif?size=96&quality=lossless">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="mainclass">
+   <div class="page-bg"></div>
+   <div class="container">
+      <img class="avatar" src="https://cdn.discordapp.com/attachments/1049842525906665503/1050820913190404116/887b75608658e07b0d0ef2604b06637c.png" />
+      <h1>fakeriiz7<img src="https://cdn.discordapp.com/emojis/1050186683494174830.gif?size=96&quality=lossless" class="verified"></img> 
+      </h1>
+
+      <ul>
+         <li>
+            <a class="icon-href" href="https://twitter.com/fakeriiz7" target="_blank">
+               <img class="icon-img" src="./img/twitter.svg">
+               <span class="icon-text">Twitter</span>
+            </a>
+         </li>
+
+         <li>
+            <a class="icon-href" href="https://www.instagram.com/fakeriiz/" target="_blank">
+               <img class="icon-img" src="./img/instagram.svg">
+               <span class="icon-text">Instagram</span></a>
+         </li>
+
+         <li>
+            <a class="icon-href" href="https://github.com/fakeriiz7" target="_blank">
+               <img class="icon-img" src="./img/github.svg">
+               <span class="icon-text">Github</span>
+            </a>
+         </li>
+
+
+         <li>
+            <a class="icon-href" href="https://pt.namemc.com/profile/Fox.1" target="_blank">
+               <img class="icon-img" src="./img/namemc.svg">
+               <span class="icon-text">NameMC</span>
+            </a>
+         </li>
+
+      </ul>
+   </div>
+</body>
+
+</html>
+<script>
+   function loaded() {
+      setInterval(loop, 400)
+   }
+
+   document.addEventListener ? document.addEventListener("DOMContentLoaded", function () {
+      loaded()
+   }) : document.attachEvent && document.attachEvent("onreadystatechange", function () {
+      loaded()
+   });
+
+   var x = 0;
+   var titleText = ["fakeriiz7", "the", "kid"];
+
+   function loop() {
+      document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length]
+   }
+</script>
